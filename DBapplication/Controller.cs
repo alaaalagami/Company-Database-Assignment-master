@@ -233,5 +233,46 @@ namespace DBapplication
             string q = "Select Count(*) From Department";
             return dbMan.ExecuteReader(q);
         }
+
+        public DataTable GetEmployeeOfSalary(int salary, int index)
+        {
+            string q = "";
+
+            if (index == 0)
+                q = "Select Fname+' ' + Minit + '. ' + Lname AS Name From Employee Where Salary = " + salary;
+            else if (index == 1)
+                q = "Select Fname+' ' + Minit + '. ' + Lname AS Name From Employee Where Salary <> " + salary;
+            else if (index == 2)
+                q = "Select Fname+' ' + Minit + '. ' + Lname AS Name From Employee Where Salary < " + salary;
+            else if (index == 3)
+                q = "Select Fname+' ' + Minit + '. ' + Lname AS Name From Employee Where Salary > " + salary;
+
+            return dbMan.ExecuteReader(q);
+        }
+
+        public DataTable SelectProjectByNum(int Pno)
+        {
+            string q = "SELECT Plocation, Dnum FROM Project WHERE Pnumber = " + Pno + ";";
+            return dbMan.ExecuteReader(q);
+        }
+
+        public int UpdateProject(string pname, int pnumber, string plocation, int dnum)
+        {
+            string q = "UPDATE Project SET Pnumber = '" + pnumber + "', Plocation = '" + plocation + "', Dnum = '" + dnum + "' WHERE Pname = '" + pname + "';";
+            return dbMan.ExecuteNonQuery(q);
+        }
+
+        public DataTable SelectDepartmentByNum(int Dno)
+        {
+            string q = "SELECT Mgr_SSN, Mgr_Start_Date FROM Department WHERE Dnumber = " + Dno + ";";
+            return dbMan.ExecuteReader(q);
+        }
+        public int UpdateDepartment(string dname, int dnumber, int managerssn, DateTime mgrstartdate)
+        {
+            string q = "UPDATE Department SET Dnumber = '" + dnumber + "', Mgr_SSN = '" + managerssn + "', Mgr_Start_Date = '" + mgrstartdate + "' WHERE Dname = '" + dname + "';";
+            return dbMan.ExecuteNonQuery(q);
+        }
     }
+
+
 }

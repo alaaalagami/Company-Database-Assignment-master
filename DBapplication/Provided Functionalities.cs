@@ -101,5 +101,25 @@ namespace DBapplication
         {
             new Statistics().Show(); 
         }
+
+
+        private void salarySearchBtn_Click(object sender, EventArgs e)
+        {
+            new SalarySearch().Show();
+        }
+
+        private void SalarySearch_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void updateDepartmentToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            new UpdateDepartment().Show();
+        }
+
+        private void updateProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new UpdateProject().Show();
+        }
     }
 }
