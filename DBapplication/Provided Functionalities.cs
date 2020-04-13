@@ -101,5 +101,10 @@ namespace DBapplication
         {
             new Statistics().Show(); 
         }
+
+        private void SalarySearch_Click(object sender, EventArgs e)
+        {
+            new SalarySearch().Show();
+        }
     }
 }

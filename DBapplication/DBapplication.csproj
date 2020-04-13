@@ -82,6 +82,12 @@
     <Compile Include="DepartmentByName.Designer.cs">
       <DependentUpon>DepartmentByName.cs</DependentUpon>
     </Compile>
+    <Compile Include="SalarySearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalarySearch.Designer.cs">
+      <DependentUpon>SalarySearch.cs</DependentUpon>
+    </Compile>
     <Compile Include="Statistics.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectByName.resx">
       <DependentUpon>ProjectByName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalarySearch.resx">
+      <DependentUpon>SalarySearch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Statistics.resx">
       <DependentUpon>Statistics.cs</DependentUpon>

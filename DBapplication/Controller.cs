@@ -233,5 +233,21 @@ namespace DBapplication
             string q = "Select Count(*) From Department";
             return dbMan.ExecuteReader(q);
         }
+
+        public DataTable GetEmployeeOfSalary(int salary, int index)
+        {
+            string q = "";
+
+            if (index == 0)
+                q = "Select Fname+' ' + Minit + '. ' + Lname AS Name From Employee Where Salary = " + salary;
+            else if (index == 1)
+                q = "Select Fname+' ' + Minit + '. ' + Lname AS Name From Employee Where Salary <> " + salary;
+            else if (index == 2)
+                q = "Select Fname+' ' + Minit + '. ' + Lname AS Name From Employee Where Salary < " + salary;
+            else if (index == 3)
+                q = "Select Fname+' ' + Minit + '. ' + Lname AS Name From Employee Where Salary > " + salary; 
+
+            return dbMan.ExecuteReader(q);
+        }
     }
 }

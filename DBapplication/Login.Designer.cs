@@ -76,6 +76,7 @@
             this.TxtBx_username.Name = "TxtBx_username";
             this.TxtBx_username.Size = new System.Drawing.Size(148, 26);
             this.TxtBx_username.TabIndex = 1;
+            this.TxtBx_username.TextChanged += new System.EventHandler(this.TxtBx_username_TextChanged);
             // 
             // label2
             // 

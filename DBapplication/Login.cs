@@ -71,5 +71,10 @@ namespace DBapplication
         {
 
         }
+
+        private void TxtBx_username_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
