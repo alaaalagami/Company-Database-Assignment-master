@@ -10,7 +10,6 @@ using System.Windows.Forms;
 
 namespace DBapplication
 {
-    //Baby comment 
     public enum Privileges
     {
         Admin = 1,
