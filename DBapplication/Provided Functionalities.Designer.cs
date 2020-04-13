@@ -46,6 +46,7 @@
             this.logOutButton = new System.Windows.Forms.Button();
             this.salarySearchBtn = new System.Windows.Forms.Button();
             this.statisticsBtn = new System.Windows.Forms.Button();
+            this.SalarySearch = new System.Windows.Forms.Button();
             this.providedFunctionalitiesMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -198,8 +199,8 @@
             // 
             // statisticsBtn
             // 
-            this.statisticsBtn.Location = new System.Drawing.Point(76, 130);
-            this.statisticsBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.statisticsBtn.Location = new System.Drawing.Point(86, 162);
+            this.statisticsBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.statisticsBtn.Name = "statisticsBtn";
             this.statisticsBtn.Size = new System.Drawing.Size(207, 28);
             this.statisticsBtn.TabIndex = 6;
@@ -207,11 +208,21 @@
             this.statisticsBtn.UseVisualStyleBackColor = true;
             this.statisticsBtn.Click += new System.EventHandler(this.statisticsBtn_Click);
             // 
+            // SalarySearch
+            // 
+            this.SalarySearch.Location = new System.Drawing.Point(86, 169);
+            this.SalarySearch.Name = "SalarySearch";
+            this.SalarySearch.Size = new System.Drawing.Size(233, 35);
+            this.SalarySearch.TabIndex = 7;
+            this.SalarySearch.Text = "Salary Search";
+            this.SalarySearch.UseVisualStyleBackColor = true;
+            this.SalarySearch.Click += new System.EventHandler(this.SalarySearch_Click);
+            // 
             // Provided_Functionalities
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(356, 267);
+            this.ClientSize = new System.Drawing.Size(400, 334);
             this.Controls.Add(this.statisticsBtn);
             this.Controls.Add(this.salarySearchBtn);
             this.Controls.Add(this.logOutButton);
@@ -249,5 +260,6 @@
         private System.Windows.Forms.ToolStripMenuItem updateDepartmentToolStripMenuItem;
         private System.Windows.Forms.Button salarySearchBtn;
         private System.Windows.Forms.Button statisticsBtn;
+        private System.Windows.Forms.Button SalarySearch;
     }
 }

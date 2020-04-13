@@ -101,15 +101,5 @@ namespace DBapplication
         {
             new Statistics().Show(); 
         }
-
-        private void updateProjectToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new UpdateProject().Show();
-        }
-
-        private void updateDepartmentToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new UpdateDepartment().Show();
-        }
     }
 }
