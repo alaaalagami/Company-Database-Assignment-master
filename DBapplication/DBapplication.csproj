@@ -108,6 +108,18 @@
     <Compile Include="ProjectByName.Designer.cs">
       <DependentUpon>ProjectByName.cs</DependentUpon>
     </Compile>
+    <Compile Include="UpdateDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDepartment.Designer.cs">
+      <DependentUpon>UpdateDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateProject.Designer.cs">
+      <DependentUpon>UpdateProject.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewAllDepartments.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +179,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Statistics.resx">
       <DependentUpon>Statistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDepartment.resx">
+      <DependentUpon>UpdateDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateProject.resx">
+      <DependentUpon>UpdateProject.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewAllDepartments.resx">
       <DependentUpon>ViewAllDepartments.cs</DependentUpon>

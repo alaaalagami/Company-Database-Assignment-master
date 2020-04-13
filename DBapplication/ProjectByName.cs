@@ -37,6 +37,7 @@ namespace DBapplication
             DataTable data = controllerObj.GetCountHoursProject(Convert.ToInt32(comboBoxPName.SelectedValue));
             empCountLabel.Text = Convert.ToString(data.Rows[0]["EmpCount"]);
             hoursLabel.Text = Convert.ToString(data.Rows[0]["TotHrs"]);
+     
         }
 
         private void empCountLabel_Click(object sender, EventArgs e)

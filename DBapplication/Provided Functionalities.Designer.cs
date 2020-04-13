@@ -51,10 +51,10 @@
             // 
             // viewEmployeesButton
             // 
-            this.viewEmployeesButton.Location = new System.Drawing.Point(86, 72);
-            this.viewEmployeesButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.viewEmployeesButton.Location = new System.Drawing.Point(76, 58);
+            this.viewEmployeesButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.viewEmployeesButton.Name = "viewEmployeesButton";
-            this.viewEmployeesButton.Size = new System.Drawing.Size(233, 35);
+            this.viewEmployeesButton.Size = new System.Drawing.Size(207, 28);
             this.viewEmployeesButton.TabIndex = 1;
             this.viewEmployeesButton.Text = "View All Employees";
             this.viewEmployeesButton.UseVisualStyleBackColor = true;
@@ -62,14 +62,13 @@
             // 
             // providedFunctionalitiesMenuStrip
             // 
-            this.providedFunctionalitiesMenuStrip.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.providedFunctionalitiesMenuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.providedFunctionalitiesMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuToolStripMenuItem});
             this.providedFunctionalitiesMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.providedFunctionalitiesMenuStrip.Name = "providedFunctionalitiesMenuStrip";
-            this.providedFunctionalitiesMenuStrip.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.providedFunctionalitiesMenuStrip.Size = new System.Drawing.Size(400, 33);
+            this.providedFunctionalitiesMenuStrip.Padding = new System.Windows.Forms.Padding(6, 2, 0, 2);
+            this.providedFunctionalitiesMenuStrip.Size = new System.Drawing.Size(356, 28);
             this.providedFunctionalitiesMenuStrip.TabIndex = 3;
             this.providedFunctionalitiesMenuStrip.Text = "menuStrip1";
             // 
@@ -80,7 +79,7 @@
             this.employeesToolStripMenuItem,
             this.departmentsToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(73, 29);
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
             this.menuToolStripMenuItem.Text = "Menu";
             // 
             // projectsToolStripMenuItem
@@ -92,47 +91,48 @@
             this.getALLProjectsToolStripMenuItem,
             this.updateProjectToolStripMenuItem});
             this.projectsToolStripMenuItem.Name = "projectsToolStripMenuItem";
-            this.projectsToolStripMenuItem.Size = new System.Drawing.Size(217, 34);
+            this.projectsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.projectsToolStripMenuItem.Text = "Projects";
             // 
             // addProjectToolStripMenuItem
             // 
             this.addProjectToolStripMenuItem.Name = "addProjectToolStripMenuItem";
-            this.addProjectToolStripMenuItem.Size = new System.Drawing.Size(274, 34);
+            this.addProjectToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
             this.addProjectToolStripMenuItem.Text = "Add Project";
             this.addProjectToolStripMenuItem.Click += new System.EventHandler(this.addProjectToolStripMenuItem_Click);
             // 
             // retrieveProjectsToolStripMenuItem
             // 
             this.retrieveProjectsToolStripMenuItem.Name = "retrieveProjectsToolStripMenuItem";
-            this.retrieveProjectsToolStripMenuItem.Size = new System.Drawing.Size(274, 34);
+            this.retrieveProjectsToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
             this.retrieveProjectsToolStripMenuItem.Text = "Retrieve Projects";
             this.retrieveProjectsToolStripMenuItem.Click += new System.EventHandler(this.retrieveProjectsToolStripMenuItem_Click);
             // 
             // getProjectByNameToolStripMenuItem
             // 
             this.getProjectByNameToolStripMenuItem.Name = "getProjectByNameToolStripMenuItem";
-            this.getProjectByNameToolStripMenuItem.Size = new System.Drawing.Size(274, 34);
+            this.getProjectByNameToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
             this.getProjectByNameToolStripMenuItem.Text = "Get Project by name";
             this.getProjectByNameToolStripMenuItem.Click += new System.EventHandler(this.getProjectByNameToolStripMenuItem_Click);
             // 
             // getALLProjectsToolStripMenuItem
             // 
             this.getALLProjectsToolStripMenuItem.Name = "getALLProjectsToolStripMenuItem";
-            this.getALLProjectsToolStripMenuItem.Size = new System.Drawing.Size(274, 34);
+            this.getALLProjectsToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
             this.getALLProjectsToolStripMenuItem.Text = "Get ALL projects";
             this.getALLProjectsToolStripMenuItem.Click += new System.EventHandler(this.getALLProjectsToolStripMenuItem_Click);
             // 
             // updateProjectToolStripMenuItem
             // 
             this.updateProjectToolStripMenuItem.Name = "updateProjectToolStripMenuItem";
-            this.updateProjectToolStripMenuItem.Size = new System.Drawing.Size(274, 34);
+            this.updateProjectToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
             this.updateProjectToolStripMenuItem.Text = "Update Project";
+            this.updateProjectToolStripMenuItem.Click += new System.EventHandler(this.updateProjectToolStripMenuItem_Click);
             // 
             // employeesToolStripMenuItem
             // 
             this.employeesToolStripMenuItem.Name = "employeesToolStripMenuItem";
-            this.employeesToolStripMenuItem.Size = new System.Drawing.Size(217, 34);
+            this.employeesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.employeesToolStripMenuItem.Text = "Employees";
             this.employeesToolStripMenuItem.Click += new System.EventHandler(this.employeesToolStripMenuItem_Click);
             // 
@@ -144,42 +144,43 @@
             this.addDepartmentToolStripMenuItem,
             this.updateDepartmentToolStripMenuItem});
             this.departmentsToolStripMenuItem.Name = "departmentsToolStripMenuItem";
-            this.departmentsToolStripMenuItem.Size = new System.Drawing.Size(217, 34);
+            this.departmentsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.departmentsToolStripMenuItem.Text = "Departments";
             // 
             // getDepartmentByToolStripMenuItem
             // 
             this.getDepartmentByToolStripMenuItem.Name = "getDepartmentByToolStripMenuItem";
-            this.getDepartmentByToolStripMenuItem.Size = new System.Drawing.Size(315, 34);
+            this.getDepartmentByToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
             this.getDepartmentByToolStripMenuItem.Text = "Get Department by name";
             this.getDepartmentByToolStripMenuItem.Click += new System.EventHandler(this.getDepartmentByToolStripMenuItem_Click);
             // 
             // getALLDepartmentsToolStripMenuItem
             // 
             this.getALLDepartmentsToolStripMenuItem.Name = "getALLDepartmentsToolStripMenuItem";
-            this.getALLDepartmentsToolStripMenuItem.Size = new System.Drawing.Size(315, 34);
+            this.getALLDepartmentsToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
             this.getALLDepartmentsToolStripMenuItem.Text = "Get ALL Departments";
             this.getALLDepartmentsToolStripMenuItem.Click += new System.EventHandler(this.getALLDepartmentsToolStripMenuItem_Click);
             // 
             // addDepartmentToolStripMenuItem
             // 
             this.addDepartmentToolStripMenuItem.Name = "addDepartmentToolStripMenuItem";
-            this.addDepartmentToolStripMenuItem.Size = new System.Drawing.Size(315, 34);
+            this.addDepartmentToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
             this.addDepartmentToolStripMenuItem.Text = "Add Department";
             this.addDepartmentToolStripMenuItem.Click += new System.EventHandler(this.addDepartmentToolStripMenuItem_Click);
             // 
             // updateDepartmentToolStripMenuItem
             // 
             this.updateDepartmentToolStripMenuItem.Name = "updateDepartmentToolStripMenuItem";
-            this.updateDepartmentToolStripMenuItem.Size = new System.Drawing.Size(315, 34);
+            this.updateDepartmentToolStripMenuItem.Size = new System.Drawing.Size(260, 26);
             this.updateDepartmentToolStripMenuItem.Text = "Update Department";
+            this.updateDepartmentToolStripMenuItem.Click += new System.EventHandler(this.updateDepartmentToolStripMenuItem_Click);
             // 
             // logOutButton
             // 
-            this.logOutButton.Location = new System.Drawing.Point(86, 281);
-            this.logOutButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.logOutButton.Location = new System.Drawing.Point(76, 225);
+            this.logOutButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.logOutButton.Name = "logOutButton";
-            this.logOutButton.Size = new System.Drawing.Size(233, 35);
+            this.logOutButton.Size = new System.Drawing.Size(207, 28);
             this.logOutButton.TabIndex = 4;
             this.logOutButton.Text = "Log Out";
             this.logOutButton.UseVisualStyleBackColor = true;
@@ -187,20 +188,20 @@
             // 
             // salarySearchBtn
             // 
-            this.salarySearchBtn.Location = new System.Drawing.Point(86, 117);
-            this.salarySearchBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.salarySearchBtn.Location = new System.Drawing.Point(76, 94);
+            this.salarySearchBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.salarySearchBtn.Name = "salarySearchBtn";
-            this.salarySearchBtn.Size = new System.Drawing.Size(233, 35);
+            this.salarySearchBtn.Size = new System.Drawing.Size(207, 28);
             this.salarySearchBtn.TabIndex = 5;
             this.salarySearchBtn.Text = "Salary Search";
             this.salarySearchBtn.UseVisualStyleBackColor = true;
             // 
             // statisticsBtn
             // 
-            this.statisticsBtn.Location = new System.Drawing.Point(86, 162);
-            this.statisticsBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.statisticsBtn.Location = new System.Drawing.Point(76, 130);
+            this.statisticsBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.statisticsBtn.Name = "statisticsBtn";
-            this.statisticsBtn.Size = new System.Drawing.Size(233, 35);
+            this.statisticsBtn.Size = new System.Drawing.Size(207, 28);
             this.statisticsBtn.TabIndex = 6;
             this.statisticsBtn.Text = "Statistics";
             this.statisticsBtn.UseVisualStyleBackColor = true;
@@ -208,16 +209,16 @@
             // 
             // Provided_Functionalities
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(400, 334);
+            this.ClientSize = new System.Drawing.Size(356, 267);
             this.Controls.Add(this.statisticsBtn);
             this.Controls.Add(this.salarySearchBtn);
             this.Controls.Add(this.logOutButton);
             this.Controls.Add(this.viewEmployeesButton);
             this.Controls.Add(this.providedFunctionalitiesMenuStrip);
             this.MainMenuStrip = this.providedFunctionalitiesMenuStrip;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Provided_Functionalities";
             this.Text = "Provided_Functionalities";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Provided_Functionalities_FormClosed);
