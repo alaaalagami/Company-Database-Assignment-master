@@ -40,7 +40,15 @@ namespace DBapplication
             {
                 int r = controllerObj.UpdateDepartment(comboBoxDName.Text, Convert.ToInt32(Txt_DNumber.Text), Convert.ToInt32(Txt_MgrSSN.Text), dateTimePicker.Value);
                 if (r > 0)
+                {
+                    string mydep = comboBoxDName.Text;
+                    DataTable dt = controllerObj.SelectDepartments();
+                    comboBoxDName.DataSource = dt;
+                    comboBoxDName.DisplayMember = "Dname";
+                    comboBoxDName.ValueMember = "Dnumber";
+                    comboBoxDName.Text = mydep;
                     MessageBox.Show("Department updated successfully");
+                }
                 else
                     MessageBox.Show("Error updating department");
             }

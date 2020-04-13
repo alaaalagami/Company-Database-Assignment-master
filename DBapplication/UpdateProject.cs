@@ -51,9 +51,18 @@ namespace DBapplication
             {
                 int r = controllerObj.UpdateProject(comboBoxPName.Text, Convert.ToInt32(Txt_PNumber.Text), Txt_PLocation.Text, Convert.ToInt32(comboBoxDName.SelectedValue));
                 if (r > 0)
+                {
+                    string myproj = comboBoxPName.Text;
+                    DataTable dt = controllerObj.SelectAllProjects();
+                    comboBoxPName.DataSource = dt;
+                    comboBoxPName.DisplayMember = "Pname";
+                    comboBoxPName.ValueMember = "Pnumber";
+                    comboBoxPName.Text = myproj;
                     MessageBox.Show("Project updated successfully");
+                }
                 else
                     MessageBox.Show("Error updating project");
+
             }
         }
     }
