@@ -40,29 +40,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(292, 78);
+            this.label1.Location = new System.Drawing.Point(328, 98);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 17);
+            this.label1.Size = new System.Drawing.Size(78, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Password";
             // 
             // TxtBx_pass
             // 
-            this.TxtBx_pass.Location = new System.Drawing.Point(397, 74);
-            this.TxtBx_pass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtBx_pass.Location = new System.Drawing.Point(447, 92);
+            this.TxtBx_pass.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TxtBx_pass.Name = "TxtBx_pass";
             this.TxtBx_pass.PasswordChar = '*';
-            this.TxtBx_pass.Size = new System.Drawing.Size(132, 22);
+            this.TxtBx_pass.Size = new System.Drawing.Size(148, 26);
             this.TxtBx_pass.TabIndex = 2;
+            this.TxtBx_pass.TextChanged += new System.EventHandler(this.TxtBx_pass_TextChanged);
             // 
             // Btn_Login
             // 
             this.Btn_Login.AutoEllipsis = true;
-            this.Btn_Login.Location = new System.Drawing.Point(329, 158);
-            this.Btn_Login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_Login.Location = new System.Drawing.Point(370, 198);
+            this.Btn_Login.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Btn_Login.Name = "Btn_Login";
-            this.Btn_Login.Size = new System.Drawing.Size(181, 28);
+            this.Btn_Login.Size = new System.Drawing.Size(204, 35);
             this.Btn_Login.TabIndex = 3;
             this.Btn_Login.Text = "&Login";
             this.Btn_Login.UseVisualStyleBackColor = true;
@@ -70,29 +71,29 @@
             // 
             // TxtBx_username
             // 
-            this.TxtBx_username.Location = new System.Drawing.Point(397, 23);
-            this.TxtBx_username.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtBx_username.Location = new System.Drawing.Point(447, 29);
+            this.TxtBx_username.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TxtBx_username.Name = "TxtBx_username";
-            this.TxtBx_username.Size = new System.Drawing.Size(132, 22);
+            this.TxtBx_username.Size = new System.Drawing.Size(148, 26);
             this.TxtBx_username.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(292, 27);
+            this.label2.Location = new System.Drawing.Point(328, 34);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 17);
+            this.label2.Size = new System.Drawing.Size(83, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "Username";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(329, 207);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(370, 259);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
+            this.button1.Size = new System.Drawing.Size(112, 35);
             this.button1.TabIndex = 5;
             this.button1.Text = "close";
             this.button1.UseVisualStyleBackColor = true;
@@ -100,19 +101,19 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(561, 250);
+            this.ClientSize = new System.Drawing.Size(631, 312);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.TxtBx_username);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Btn_Login);
             this.Controls.Add(this.TxtBx_pass);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);

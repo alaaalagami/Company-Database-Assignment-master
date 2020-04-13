@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace DBapplication
 {
+    //Baby comment 
     public enum Privileges
     {
         Admin = 1,
@@ -63,6 +64,11 @@ namespace DBapplication
         }
 
         private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtBx_pass_TextChanged(object sender, EventArgs e)
         {
 
         }
