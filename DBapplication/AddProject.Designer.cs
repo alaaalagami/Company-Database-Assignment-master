@@ -72,7 +72,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(40, 220);
+            this.label4.Location = new System.Drawing.Point(40, 226);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(123, 17);
@@ -82,7 +82,7 @@
             // Txt_PName
             // 
             this.Txt_PName.Location = new System.Drawing.Point(180, 53);
-            this.Txt_PName.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_PName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_PName.Name = "Txt_PName";
             this.Txt_PName.Size = new System.Drawing.Size(160, 22);
             this.Txt_PName.TabIndex = 4;
@@ -90,7 +90,7 @@
             // Txt_PNumber
             // 
             this.Txt_PNumber.Location = new System.Drawing.Point(180, 101);
-            this.Txt_PNumber.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_PNumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_PNumber.Name = "Txt_PNumber";
             this.Txt_PNumber.Size = new System.Drawing.Size(160, 22);
             this.Txt_PNumber.TabIndex = 5;
@@ -98,7 +98,7 @@
             // Txt_PLocation
             // 
             this.Txt_PLocation.Location = new System.Drawing.Point(180, 153);
-            this.Txt_PLocation.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_PLocation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_PLocation.Name = "Txt_PLocation";
             this.Txt_PLocation.Size = new System.Drawing.Size(160, 22);
             this.Txt_PLocation.TabIndex = 6;
@@ -107,7 +107,7 @@
             // 
             this.ComboBox_DName.FormattingEnabled = true;
             this.ComboBox_DName.Location = new System.Drawing.Point(180, 217);
-            this.ComboBox_DName.Margin = new System.Windows.Forms.Padding(4);
+            this.ComboBox_DName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ComboBox_DName.Name = "ComboBox_DName";
             this.ComboBox_DName.Size = new System.Drawing.Size(160, 24);
             this.ComboBox_DName.TabIndex = 7;
@@ -116,7 +116,7 @@
             // Btn_AddProject
             // 
             this.Btn_AddProject.Location = new System.Drawing.Point(153, 281);
-            this.Btn_AddProject.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_AddProject.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Btn_AddProject.Name = "Btn_AddProject";
             this.Btn_AddProject.Size = new System.Drawing.Size(100, 28);
             this.Btn_AddProject.TabIndex = 8;
@@ -138,7 +138,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AddProject";
             this.Text = "Add Project";
             this.Load += new System.EventHandler(this.AddProject_Load);
